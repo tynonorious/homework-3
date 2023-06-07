@@ -1,0 +1,32 @@
+/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vw;
+    align-items: stretch;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 45vw;
+    flex-shrink: 0;
+}
+header {
+    flex-grow: 1;
+    flex-basis: 5vw;
+}
+footer {
+    flex-grow: 1;
+    flex-basis: 5vw;
+}
+article {
+    flex-grow: 4;
+}
+nav {
+    flex-grow: 1;
+}
+aside {
+    flex-grow: 1;
+}

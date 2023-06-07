@@ -1,0 +1,28 @@
+/*Schrijf hier jouw css*/
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*Flexbox organisation*/
+body {
+    width: 100%;
+    min-height: 45vw;
+    background-color: #F2F3D9;
+    font-family: 'Roboto', sans-serif;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.content p {
+    flex-basis:25%;
+    background-color:#C16E70;
+    min-height: 25vw;
+    border-radius: 4px;
+    align-items: flex-end;
+}

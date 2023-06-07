@@ -1,0 +1,44 @@
+/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vw;
+}
+
+.col-1 {
+    flex-basis: 20vw;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.row-1 {
+    flex-basis: 10vw;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.row-2 {
+    flex-basis: 80vw;
+}
+.row-3 {
+    flex-basis: 10vw;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+article {
+    flex-basis: 100vw;
+    display: flex;
+    flex-direction: column;
+}

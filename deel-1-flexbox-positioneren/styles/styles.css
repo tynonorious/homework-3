@@ -1,0 +1,67 @@
+/*////////////////////////Opdracht 1///////////////////*/
+
+.unordered-list1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*////////////////////////Opdracht 2///////////////////*/
+.unordered-list2 {
+    display: flex;
+    flex-direction: row;
+}
+.unordered-list2item1 {
+    flex-basis: 33%;
+}
+.unordered-list2item2 {
+    flex-basis:33%;
+}
+.unordered-list2item3 {
+    flex-basis: 33%;
+}
+/*////////////////Opdracht 3////////////*/
+.unordered-list3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#unordered-list3item1 {
+    align-self: flex-start;
+}
+#unordered-list3item2 {
+    align-self: center;
+}
+#unordered-list3item3 {
+    align-self: flex-end;
+}
+
+/*////////////////////////Opdracht 4///////////////////*/
+
+.unordered-list4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*/////////////////////Opdracht 5////////////////////*/
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
